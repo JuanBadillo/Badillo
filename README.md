@@ -8,4 +8,4 @@
 
 ![enter image description here](https://i.imgur.com/9KxHyxj.png)
  ####  **Tabla de Contenidos**
->    **[🔷 1. ----](https://github.com/JuanBadillo/BadilloFl)**.
+>    **[🔷 1. Parcial 1](https://github.com/JuanBadillo/BadilloF/tree/main/Parcial1)**.
