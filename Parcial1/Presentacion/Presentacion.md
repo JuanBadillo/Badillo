@@ -4,7 +4,10 @@
 >    **Ingenieria en Sistemas Computacionales**
 
 ####  **Historial Academico**
-txt\
+_Educacion Primaria:_ \
+Educacion Secundaria: \
+Educacion Media Superior: \
+Educacion Superior: (*En Curso*) \
 
 ####  **Lengujaes de Programacion**
 txt\
@@ -17,6 +20,3 @@ txt\
 
 #### **Hobbies**
 txt\
-
- ####  **Tabla de Contenidos**
->    **[🔷 1. Parcial 1](https://github.com/JuanBadillo/BadilloF/tree/main/Parcial1)** \
