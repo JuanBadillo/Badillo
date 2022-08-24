@@ -1,13 +1,13 @@
 # Juan Manuel Badillo Flores
->    **N.Control:** 19100148 \
+>    __**N.Control:**__ 19100148 \
 >    **Instituto Tecnologico de Nuevo Laredo**\
 >    **Ingenieria en Sistemas Computacionales**
 
 ####  **Historial Academico**
-_Educacion Primaria:_ \
-Educacion Secundaria: \
-Educacion Media Superior: \
-Educacion Superior: (*En Curso*) \
+__Educacion Primaria:__ \
+__Educacion Secundaria:__ \
+__Educacion Media Superior:__ \
+__Educacion Superior:__ (*En Curso*) \
 
 ####  **Lengujaes de Programacion**
 txt\
