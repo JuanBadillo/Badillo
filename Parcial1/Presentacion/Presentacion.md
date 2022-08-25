@@ -1,22 +1,37 @@
-# Juan Manuel Badillo Flores
->    __**N.Control:**__ 19100148 \
+
+## Juan Manuel Badillo Flores
+>    **N.Control:** 19100148 \
 >    **Instituto Tecnologico de Nuevo Laredo**\
 >    **Ingenieria en Sistemas Computacionales**
 
-####  **Historial Academico**
-__Educacion Primaria:__ \
-__Educacion Secundaria:__ \
-__Educacion Media Superior:__ \
-__Educacion Superior:__ (*En Curso*) \
+###  **Historial Academico**
+| Grado 	| Institucion 	|
+|-------	|-------------	|
+| **Educacion Primaria** 	| Carlos A. Carrillo   |
+| **Educacion Secundaria** 	| Secundaria Royal  	|
+| **Educacion Media Superior** 	| Preparatoria Royal     |
+| **Educacion Superior** 	|  Instituto Tecnologico de Nuevo Laredo (*En Curso*) 	|
 
-####  **Lengujaes de Programacion**
-txt\
 
-####  ***Tecnologías o lenguajes me gustaría aprender***
-txt\
+###  **Lengujes de Programacion**
+| Lenguaje 	| Nivel 	|
+|-------	|-------------	|
+| **C++** 	| 🟩🟩🟩🟩⬛ |
+| **Swift** 	| 🟩🟩🟩🟩⬛  |
+| **C#** 	| 🟩🟩🟩⬛⬛ 	|
+| **JavaScript** 	| 🟩🟩🟩⬛⬛ 	|
+| **Java** 	| 🟩🟩⬛⬛⬛   |
 
-####  ***Especializacion a futuro***
-txt\
+###  ***Tecnologías o lenguajes me gustaría aprender***
+1. Python
+2. Unity / Unreal ( *Motores 3D* )
+3. Android Studio
+4. HTML
+5. Ruby
 
-#### **Hobbies**
-txt\
+###  ***Especializacion a futuro***
+> Desarrollo de Aplicaciones
+
+### **Hobbies**
+> 1. **Escritura** 
+> 2. **Musica:** Guitarra y Piano
