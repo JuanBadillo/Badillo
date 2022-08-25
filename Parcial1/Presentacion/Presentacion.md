@@ -1,6 +1,6 @@
 
 ## Juan Manuel Badillo Flores
->    **N.Control:** 19100148 \
+>    **N.Control:** *19100148* \
 >    **Instituto Tecnologico de Nuevo Laredo**\
 >    **Ingenieria en Sistemas Computacionales**
 
@@ -22,16 +22,16 @@
 | **JavaScript** 	| 🟩🟩🟩⬛⬛ 	|
 | **Java** 	| 🟩🟩⬛⬛⬛   |
 
-###  ***Tecnologías o lenguajes me gustaría aprender***
+###  **Tecnologías o lenguajes que me gustaría aprender**
 1. Python
 2. Unity / Unreal ( *Motores 3D* )
 3. Android Studio
 4. HTML
 5. Ruby
 
-###  ***Especializacion a futuro***
+###  **Especializacion a futuro**
 > Desarrollo de Aplicaciones
 
 ### **Hobbies**
 > 1. **Escritura** 
-> 2. **Musica:** Guitarra y Piano
+> 2. **Musica:** *Guitarra y Piano*
