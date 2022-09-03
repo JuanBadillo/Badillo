@@ -10,5 +10,5 @@ A todas las cajas se les puede aplicar las siguientes propiedades: `width`, `hei
 
 > **Contenido:** (o content box) El área donde se muestra el contenido, cuyo tamaño puede cambiarse utilizando propiedades como `width` y `height`.\
 > **Relleno:** (o padding box) El relleno es espacio en blanco alrededor del contenido; es posible controlar su tamaño usando la propiedad `padding` y otras propiedades relacionadas.\
-> **Borde:** (o border box) El borde de la caja envuelve el contenido y el de relleno. Es posible controlar su tamaño y estilo utilizando la propiedad `border` y otras propiedades relacionadas. \
+> **Borde:** (o border box) El borde de la caja envuelve el contenido y el de relleno. Es posible controlar su tamaño y estilo utilizando la propiedad `border` y otras propiedades relacionadas.\
 > **Margen:** (o margin box) El margen es la capa más externa. Envuelve el contenido, el relleno y el borde como espacio en blanco entre la caja y otros elementos. Es posible controlar su tamaño usando la propiedad `margin` y otras propiedades relacionadas.
