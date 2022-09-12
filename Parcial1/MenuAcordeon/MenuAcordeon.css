@@ -2,12 +2,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 2px;
+    border-color: black;
 }
 
 ul {
     list-style:none ; 
     width: 200px ; 
     height: 500px;
+
 }
 
 ul > li > ul {
