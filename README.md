@@ -13,3 +13,4 @@
 >>    *[🔹 1.2 Modelo de Caja](https://github.com/JuanBadillo/BadilloF/tree/main/Parcial1/ModeloDeCaja)*\
 >>    *[🔹 1.3 Tabla](https://github.com/JuanBadillo/BadilloF/tree/main/Parcial1/Tabla)*\
 >>    *[🔹 1.4 Posicionamiento](https://github.com/JuanBadillo/BadilloF/tree/main/Parcial1/Posicionamiento)*
+>>    *[🔹 1.5 Menu Acordeon](https://github.com/JuanBadillo/BadilloF/tree/main/Parcial1/MenuAcordeon)*
