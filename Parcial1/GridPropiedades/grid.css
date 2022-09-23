@@ -9,8 +9,8 @@
     width: 100%;
     height: 500px;
     display: grid;
-    grid-template-columns: 100px 225px 225px;
-    grid-template-rows: 100px 300px 100px;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-rows: 20% 60% 20%;
     grid-template-areas:    "menulat encabezado encabezado"
                             "menulat columna1 columna2"
                             "menulat piepag piepag";
@@ -48,12 +48,13 @@ div#caja6.caja{grid-area: columna2;
     background-color: rgb(212, 160, 233)}
 #caja9{grid-area: piepag;}
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 550px){
     .contenedor{
-        grid-template-columns: 50px 125px 125px;
-        grid-template-rows: 50px 200px 50px;
+        grid-template-columns: 20% 40% 40%;
+        grid-template-rows: 20% 30% 30% 20%;
         grid-template-areas:    "menulat encabezado encabezado"
-                                "menulat columna1 columna2"
+                                "menulat columna1 columna1"
+                                "menulat columna2 columna2"
                                 "menulat piepag piepag";
     }
  }

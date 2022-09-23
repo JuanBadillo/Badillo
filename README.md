@@ -17,4 +17,5 @@
 >>    *[🔹 1.6 Modal](https://github.com/JuanBadillo/BadilloF/tree/main/Parcial1/Modal)*\
 >>    *[🔹 1.7 Propiedades Flexbox](https://github.com/JuanBadillo/BadilloF/tree/main/Parcial1/PropiedadesFlexbox)*\
 >>    *[🔹 1.8 Flexbox](https://github.com/JuanBadillo/BadilloF/tree/main/Parcial1/Flexbox)*\
->>    *[🔹 1.9 Propiedades Grid](https://github.com/JuanBadillo/BadilloF/tree/main/Parcial1/GridPropiedades)*
+>>    *[🔹 1.9 Propiedades Grid](https://github.com/JuanBadillo/BadilloF/tree/main/Parcial1/GridPropiedades)*\
+>>    *[🔹 1.10 Layout Grid](https://github.com/JuanBadillo/BadilloF/tree/main/Parcial1/LayoutGrid)*
