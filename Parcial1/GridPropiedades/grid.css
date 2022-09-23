@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+.contenedor {
+    background-color: rgb(204, 206, 250);
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 100px 225px 225px;
+    grid-template-rows: 100px 300px 100px;
+    grid-template-areas:    "menulat encabezado encabezado"
+                            "menulat columna1 columna2"
+                            "menulat piepag piepag";
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: stretch;
+    align-content: stretch;
+    justify-items: stretch;
+    align-items: stretch; 
+}
+
+.caja {
+    margin: 0px; 
+    float: center;
+    text-align: center;
+}
+
+#caja1{grid-area: menulat;     
+    border: 5px solid rgb(146, 17, 17); 
+    background-color: rgb(250, 149, 149)}
+#caja2{grid-area: encabezado;
+    border: 5px solid rgb(109, 192, 71); 
+    background-color: rgb(182, 252, 182)}
+#caja3{grid-area: encabezado;}
+#caja4{grid-area: menulat;}
+#caja5{grid-area: columna1;
+    border: 5px solid rgb(7, 93, 128); 
+    background-color: rgb(83, 167, 247)}
+div#caja6.caja{grid-area: columna2;
+    border: 5px solid rgb(196, 140, 56); 
+    background-color: rgb(235, 233, 156)}
+#caja7{grid-area: menulat;}
+#caja8{grid-area: piepag;
+    border: 5px solid rgb(46, 33, 80); 
+    background-color: rgb(212, 160, 233)}
+#caja9{grid-area: piepag;}
+
+@media screen and (max-width: 600px){
+    .contenedor{
+        grid-template-columns: 50px 125px 125px;
+        grid-template-rows: 50px 200px 50px;
+        grid-template-areas:    "menulat encabezado encabezado"
+                                "menulat columna1 columna2"
+                                "menulat piepag piepag";
+    }
+ }
