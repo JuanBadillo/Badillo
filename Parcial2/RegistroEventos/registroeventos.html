@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Registro Eventos</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="registroeventos.css">
+</head>
+
+<body> 
+    <div id="cont" class="contenedor"> 
+        <button id="caja1" class="caja">1</button>
+        <button id="caja2" class="caja" onclick="alert('Click en Boton 2!')">2</button>
+        <button id="caja3" class="caja" onclick="alert('Click en Boton 3!')">3</button>
+        <button id="caja4" class="caja">4</button>
+        <button id="caja5" class="caja">5</button>
+    </div>
+</body> 
+
+<script>
+  var time = new Date();
+  console.log(time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds());
+  var timestamp = "[" + time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds() + "]";
+
+  document.querySelector("#caja1").addEventListener("click",funcb1);
+  function funcb1 () {console.log(timestamp + "Click en Boton 1"); alert("Click en Boton 1!");};
+
+  document.querySelector("#caja4").addEventListener("click",funcb4);
+  function funcb4 () {console.log(timestamp + "Click en Boton 4"); alert("Click en Boton 4!");};
+  
+  var elem = document.getElementById("caja5");
+  var onMouseMove = function() {
+      console.log(timestamp + "Paso sobre Boton 5")
+      alert("Paso sobre Boton 5!");
+  };
+  elem.addEventListener("mousemove", onMouseMove);
+</script>
+
+</html>
+
+
