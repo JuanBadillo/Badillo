@@ -1,0 +1,52 @@
+.row{
+    border: 10px;
+    background: rgb(212, 205, 205);
+    border-color: black;
+    font-family: Georgia, serif;
+    color: #000000;
+    text-align: justify;
+  }
+.col-sm-12{
+    border: 2px solid rgb(255, 244, 244); 
+    background: #d80000;
+    background: -moz-linear-gradient(left, #c71818 0%, #f17993 50%, #c71818 100%);
+    background: -webkit-linear-gradient(left, #c71818 0%, #f17993 50%, #c71818 100%);
+    background: linear-gradient(to right, #c71818 0%, #f17993 50%, #c71818 100%);
+  }
+.col-sm-6{
+    border: 2px solid rgb(255, 244, 244); 
+    background: #7ACE00;
+    background: -moz-linear-gradient(left, #7ACE00 0%, #B1FFB0 50%, #7ACE00 100%);
+    background: -webkit-linear-gradient(left, #7ACE00 0%, #B1FFB0 50%, #7ACE00 100%);
+    background: linear-gradient(to right, #7ACE00 0%, #B1FFB0 50%, #7ACE00 100%);
+
+}
+.col-sm-7{
+    border: 2px solid rgb(255, 255, 255); 
+    background: #09A0E3;
+    background: -moz-linear-gradient(left, #09A0E3 0%, #A3D8FF 50%, #09A0E3 100%);
+    background: -webkit-linear-gradient(left, #09A0E3 0%, #A3D8FF 50%, #09A0E3 100%);
+    background: linear-gradient(to right, #09A0E3 0%, #A3D8FF 50%, #09A0E3 100%);
+
+}
+.col-sm-9{
+    border: 2px solid rgb(255, 255, 255); 
+    background: #FCEE05;
+    background: -moz-linear-gradient(left, #FCEE05 0%, #FFFCBD 50%, #FCEE05 100%);
+    background: -webkit-linear-gradient(left, #FCEE05 0%, #FFFCBD 50%, #FCEE05 100%);
+    background: linear-gradient(to right, #FCEE05 0%, #FFFCBD 50%, #FCEE05 100%);
+}
+.col-sm-20{
+    border: 2px solid rgb(255, 255, 255); 
+    background: #CE0AFC;
+    background: -moz-linear-gradient(left, #CE0AFC 0%, #FFC7FE 50%, #CE0AFC 100%);
+    background: -webkit-linear-gradient(left, #CE0AFC 0%, #FFC7FE 50%, #CE0AFC 100%);
+    background: linear-gradient(to right, #CE0AFC 0%, #FFC7FE 50%, #CE0AFC 100%);
+}
+.col-sm-11{
+    border: 2px solid rgb(255, 244, 244); 
+    background: #31e7cf;
+    background: -moz-linear-gradient(left, #31e7cf 0%, #b3faf0 50%, #31e7cf 100%);
+    background: -webkit-linear-gradient(left, #31e7cf 0%, #b3faf0 50%, #31e7cf 100%);
+    background: linear-gradient(to right, #31e7cf 0%, #b3faf0 50%, #31e7cf 100%);
+  }
