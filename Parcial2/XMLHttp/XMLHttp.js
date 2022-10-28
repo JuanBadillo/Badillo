@@ -15,7 +15,7 @@ function cambiaFondo(newColor) {
 
   function func1(a) {
     http_request = new XMLHttpRequest();
-    http_request.open('GET', 'sincronia.html', true);
+    http_request.open('GET', 'XMLHttp.html', true);
     document.getElementById("header").innerHTML = '<div>XMLHttpRequest</div>';
     http_request.send();
   }
