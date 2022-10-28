@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Fetch</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="fetch.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Notable&family=Silkscreen&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <div class="parent">
+        <div class="caja" id="caja1"></div>
+        <button class="boton" id="boton" href="Opcion1">FETCH</button>
+        <div class="caja" id="caja3"></div>
+        <div class="caja" id="caja4">🔴⠀⠀🔴</div>
+        <div class="caja" id="caja5"></div>
+        <div class="container">
+            <img id="img" class="imagen" src="  "> 
+            <div class="bottom-right" id="nombre"></div>
+        </div>    
+        <div class="caja" id="caja7"></div>
+        <div class="caja" id="caja8"><br>⠀⠀🔴</div>
+        <div class="caja" id="caja9">☰</div>
+        <div class="caja" id="caja10">🔴🟡🟢</div>
+        <div class="caja" id="caja11"></div>
+        <div class="caja" id="caja12">POKÉDEX</div>
+        <div class="caja" id="caja13"></div>
+        <div class="caja" id="caja14"></div>
+        <div class="caja" id="nombre"></div>
+        <div class="caja" id="caja16"></div>
+        </div> 
+
+
+    <script>
+        document.getElementById("boton").addEventListener("click", function() {
+            var randPok = Math.floor(Math.random() * 151)
+            const url = `https://pokeapi.co/api/v2/pokemon/${randPok}`
+            fetch(url)
+            .then((respuesta) => {
+                return respuesta.json()
+            })
+            .then((data) => { 
+                document.getElementById("img").src = data.sprites.other["official-artwork"].front_default  
+                document.getElementById("nombre").textContent = data.species.name  
+            }) 
+            console.log(randPok)         
+        });
+    </script>
+</body>
+</html>
