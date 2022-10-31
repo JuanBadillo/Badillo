@@ -20,13 +20,13 @@
         <div class="container">
             <img id="img" class="imagen" src="  "> 
             <div class="bottom-right" id="nombre"></div>
-        </div>    
+        </div>   
         <div class="caja" id="caja7"></div>
         <div class="caja" id="caja8"><br>⠀⠀🔴</div>
         <div class="caja" id="caja9">☰</div>
         <div class="caja" id="caja10">🔴🟡🟢</div>
         <div class="caja" id="caja11"></div>
-        <div class="caja" id="caja12">POKÉDEX</div>
+        <div class="caja" id="caja12">MUSIC PLAYER</div>
         <div class="caja" id="caja13"></div>
         <div class="caja" id="caja14"></div>
         <div class="caja" id="nombre"></div>
@@ -36,17 +36,18 @@
 
     <script>
         document.getElementById("boton").addEventListener("click", function() {
-            var randPok = Math.floor(Math.random() * 151)
-            const url = `https://pokeapi.co/api/v2/pokemon/${randPok}`
+            var rand = Math.floor(Math.random() * 89)
+            const url = `https://v1.nocodeapi.com/blas/spotify/bMLhuVAdeWsPlSLW/playlists?id=0zXUwrP9CUjwYb6Km8aKVW`
+            
             fetch(url)
             .then((respuesta) => {
                 return respuesta.json()
             })
             .then((data) => { 
-                document.getElementById("img").src = data.sprites.other["official-artwork"].front_default  
-                document.getElementById("nombre").textContent = data.species.name  
+                document.getElementById("nombre").textContent = "⏮⏵⏭ -"+data.tracks.items[rand].track.name
+                document.getElementById("img").src = data.tracks.items[rand].track.album.images["0"].url
             }) 
-            console.log(randPok)         
+            console.log(rand)   
         });
     </script>
 </body>

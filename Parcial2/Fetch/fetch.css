@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding:0;
-    background-color: #db0b2b;
+    background-color: #333333;
     
 }
 .parent {
@@ -88,11 +88,12 @@
 #caja13 { grid-area: 7 / 2 / 8 / 7;}
 #caja14 { grid-area: 1 / 1 / 2 / 8;}
 #nombre { grid-area: 2 / 7 / 9 / 8;
-    background-color: #20202000;
+    background-color: #181717a1;
     font-family: 'Silkscreen', sans-serif;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
+    font-weight: 700;
 }
 #caja16 { grid-area: 8 / 2 / 9 / 7;}
 .container {
