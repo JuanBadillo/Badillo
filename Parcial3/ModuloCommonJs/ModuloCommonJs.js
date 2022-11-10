@@ -1,8 +1,6 @@
-var cowsay = require("cowsay");
+let ascii_text_generator = require('ascii-text-generator');
 
-
-console.log(cowsay.say({
-    text : "I'm a moooodule",
-    e : "oO",
-    T : "U "
-}));
+let input_text = "Modulo Texto Ascii";
+let ascii_text =ascii_text_generator(input_text,"2");
+ 
+console.log(ascii_text);
