@@ -11,7 +11,7 @@ $registros = mysqli_query($con,$consulta) or die("Problemas en el select");
 
 //UTILIZA ARRAY ASOCIATIVO
 //while ($reg = mysqli_fetch_array($registros,MYSQLI_ASSOC)){
-//  printf($reg['nombre'].' '.$reg['apPaterno'].'<br>');
+//  printf($reg['Nombre'].' '.$reg['Apellido'].'<br>');
 //}
 //UTILIZA ARRAY NUMERICO
 //while ($reg = mysqli_fetch_array($registros,MYSQLI_NUM)){
@@ -19,7 +19,7 @@ $registros = mysqli_query($con,$consulta) or die("Problemas en el select");
 //}
 
 $result = mysqli_fetch_all($registros);
-var_dump($result)
+var_dump($result);
 
 mysqli_close($con);
 echo json_encode($result);
